@@ -36,7 +36,6 @@ header {
   color: white;
   border: none;
   padding: 20px 40px 20px 40px;
-  line-height: 1;
   border-radius: 5px;
   transition: all 200ms ease-in-out;
 }
@@ -52,21 +51,15 @@ main {
   justify-content: space-between;
 }
 .current-city {
-  display: flex;
   font-size: 38px;
-  font-weight: 900;
   margin: 0;
+  line-height: 48px;
 }
 .current-details {
   color: rgba(39, 33, 66, 0.4);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  position: relative;
-  top: 50px;
-  right: 370px;
-  margin-left: 20px;
-  margin-bottom: 40px;
 }
 
 .current-details strong {
@@ -78,22 +71,19 @@ main {
 }
 
 .current-temperature-icon {
-  margin-top: -80px;
-  font-size: 40px;
-  margin-left: 430px;
+  width: 88px;
+  height: 88px;
 }
 
 .current-temperature-value {
-  font-size: 80px;
-  margin-top: -100px;
-  margin-left: 10px;
+  font-size: 88px;
+  line-height: 88px;
   font-weight: bold;
 }
 
 .current-temperature-unit {
+  margin-top: 6px;
   font-size: 28px;
-  margin-top: -90px;
-  margin-left: 0px;
 }
 
 footer {
