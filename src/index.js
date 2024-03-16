@@ -101,4 +101,3 @@ let SearchFormElement = document.querySelector("#search-form");
 SearchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Leeds");
-displayForecast();
